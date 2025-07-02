@@ -9,6 +9,7 @@ public class Sample {
 	@Test
 	public void lounch() {
 		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		Reporter.log("Sample got executed",true);
 	}
 }
